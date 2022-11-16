@@ -1,0 +1,33 @@
+body{
+    background-color: #f4fafa;
+}
+
+.container{
+    background-color: #e8e80d;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.resultado{
+    background-color: hsl(90, 44%, 61%);
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.input-one{
+    padding: 5px;
+}
+
+.input-two{
+    padding: 5px;
+}
+
+.btn-calcular{
+    background-color: rgb(37, 92, 243);
+    color: rgb(231, 227, 227);
+    border-radius: 5px;
+}
