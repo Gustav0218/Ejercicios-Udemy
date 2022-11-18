@@ -21,6 +21,11 @@
     padding: 10px;
     padding-left: 35px;
 }
+
+textarea{
+    vertical-align: top;
+}
+
 .carrera{
    padding: 10px;
     padding-left: 15px;
