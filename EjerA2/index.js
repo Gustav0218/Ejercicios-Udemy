@@ -2,14 +2,13 @@ const guardar =()=>{
  let nuevoNombre = document.getElementById('name').value;
  let nuevoApellido = document.getElementById('apellido').value;
  let edad = document.getElementById('number_edad').value;
- let direccion = document.getElementById('dom').value;
- let profesion = document.getElementById('carrera').value;
+ let direc = document.getElementById('dom').value;
+ let profesion = document.getElementById('estudios').value;
 
- /*console.log ( nuevoNombre + ''  + nuevoApellido + '' + edad + ' ' + direccion + '' + profesion + ' ' ); */
- console.log (nuevoNombre + ' ');
- console.log (nuevoApellido + '');
- 
- let nuevosDatos = parseInt ( nuevoNombre) + parseInt ( nuevoApellido);
- document.getElementById('datos').innerHTML
+ document.getElementById('nameUser').innerHTML = '<strong>' + nuevoNombre + '</strong>';
+ document.getElementById('nameAp').innerHTML = '<strong>' + nuevoApellido + '</stromng>';
+ document.getElementById('userEdad').innerHTML = '<strong>' + edad + '</strong>';
+ document.getElementById('userDom').innerHTML = '<strong>' + direc + '</strong>';
+ document.getElementById('userProf').innerHTML = '<strong>' + profesion + '</strong>';
 }
 
