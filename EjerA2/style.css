@@ -38,4 +38,47 @@ textarea{
     border-radius: 9px;
 }
 
+/* Input resultados */
+
+.container-result{
+    background-color:rgb(128, 217, 217);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    
+}
+
+.name{
+    background-color: rgb(236, 233, 233);
+    border-color: rgb(11, 11, 12);
+    border-style:none;
+}
+
+.ap{
+    background-color: rgb(236, 233, 233);
+    border-color: rgb(11, 11, 12);
+    border-style:none;
+}
+
+.edad{
+    background-color: rgb(236, 233, 233);
+    border-color: rgb(11, 11, 12);
+    border-style:none;
+}
+
+.domicilio{
+    background-color: rgb(236, 233, 233);
+    border-color: rgb(11, 11, 12);
+    border-style:none;
+}
+
+.prof{
+    background-color: rgb(236, 233, 233);
+    border-color: rgb(11, 11, 12);
+    border-style:none;
+}
 
